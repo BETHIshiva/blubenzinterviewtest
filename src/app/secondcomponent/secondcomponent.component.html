@@ -1,0 +1,26 @@
+<div >
+
+    <h1>Seccond Component</h1>
+
+
+<table >
+    <tr style="background-color: black; color: aliceblue;">
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Grade</th>
+        <th>Mail</th>
+        <th>Class</th>
+    </tr>
+    <tr *ngFor="let i of students">
+        <td>{{i.id}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.age}}</td>
+        <td>{{i.grade}}</td>
+        <td>{{i.mail}}</td>
+        <td>{{i.class}}</td>
+    </tr>
+</table>
+</div>
+<button (click)="Before()">Previous</button>
+<button (click)="onnext()">next</button>
